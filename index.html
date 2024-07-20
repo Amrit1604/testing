@@ -3,27 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Best platform to watch anime.">
   <title>Enhanced Landing Page</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body{
-        background-image: url(https://i.pinimg.com/originals/e6/4a/59/e64a598753241114a9086ecbd6e3c957.jpg);
+    body {
+      background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/278/150/small/dark-background-abstract-with-light-effect-vector.jpg);
+      background-size: cover;
+      color: white;
     }
     .header {
       background-image: url(https://images.wallpapersden.com/image/download/the-landscape-hd-anime-illustrator_bmZpZmaUmZqaraWkpJRmbmpnrWZmZ2U.jpg);
-      background-repeat:no-repeat;
-      
+      background-repeat: no-repeat;
+      background-size: cover;
       color: white;
       padding: 100px 0;
       text-align: center;
     }
-    @media (max-width: 576px) {
-    .header {
-      padding: 50px 0;
+    .header h1, .header h2 {
+      margin: 0;
     }
-    .header h1 {
-      font-size: 3.5rem;
+    .header .welcome-box {
+      border: 2px solid white;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.7);
     }
+    .welcome-text {
+    font-size: 2rem; 
+  }
+  .anihex-text {
+    font-size: 5rem; 
+  }
     .content {
       padding: 60px 0;
     }
@@ -32,6 +44,20 @@
       color: white;
       text-align: center;
       padding: 20px 0;
+    }
+    @media (max-width: 576px) {
+      .header {
+        padding: 50px 0;
+      }
+      .welcome-text {
+        font-size: 2rem;
+      }
+      .anihex-text {
+        font-size: 2.5rem;
+      }
+      p.bestplat {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -72,12 +98,15 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <div style="border: 2px solid white; padding: 20px; margin-bottom: 20px; display: inline-block; background-color: #343a40;">
-        <h1>Welcome to Our Landing Page</h1>
+      <div class="welcome-box">
+        <h1 class="welcome-text">ＷＥＬＣＯＭＥ ＴＯ</h1>
+        <h2 class="anihex-text">🅰🅽🅸🅷🅴🆇</h2>
       </div>
-      <div style="border: 2px solid white; padding: 20px; margin-bottom: 20px; display: inline-block; background-color: #343a40;">
-        <p>We are glad to see you here. Explore our website to know more about us.</p>
-      </div><br>
+      <br>
+      <div class="welcome-box">
+        <p class="bestplat">ＢＥＳＴ  ＰＬＡＴＦＯＲＭ  ＴＯ  ＷＡＴＣＨ  ＡＮＩＭＥ</p>
+      </div>
+      <br>
       <a href="#" class="btn btn-light btn-lg">Learn More</a>
     </div>
   </header>
@@ -93,21 +122,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://wallpapers.com/images/hd/naruto-shippuden-ninjas-of-konoha-poster-grwidr1g2tnfyv1v.jpg" alt="First slide">
+        <img class="d-block w-100" src="https://wallpapers.com/images/hd/naruto-shippuden-ninjas-of-konoha-poster-grwidr1g2tnfyv1v.jpg" alt="Naruto Shippuden">
         <div class="carousel-caption d-none d-md-block">
           <h5>NARUTO SHIPPUDEN</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://c4.wallpaperflare.com/wallpaper/666/480/28/anime-1920x1200-one-piece-hd-wallpaper-preview.jpg" alt="Second slide">
+        <img class="d-block w-100" src="https://c4.wallpaperflare.com/wallpaper/666/480/28/anime-1920x1200-one-piece-hd-wallpaper-preview.jpg" alt="One Piece">
         <div class="carousel-caption d-none d-md-block">
           <h5>ONE PIECE</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://mrwallpaper.com/images/hd/bleach-4k-ultra-hd-soul-card-battle-poster-kzmktls7sxzz28wc.jpg" alt="Third slide">
+        <img class="d-block w-100" src="https://mrwallpaper.com/images/hd/bleach-4k-ultra-hd-soul-card-battle-poster-kzmktls7sxzz28wc.jpg" alt="Bleach">
         <div class="carousel-caption d-none d-md-block">
-          <h5>BLEACH </h5>
+          <h5>BLEACH</h5>
         </div>
       </div>
     </div>
@@ -127,7 +156,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://wallpapercave.com/wp/wp7836444.jpg" class="card-img-top" alt="...">
+            <img src="https://wallpapercave.com/wp/wp7836444.jpg" class="card-img-top" alt="Feature 1">
             <div class="card-body">
               <h5 class="card-title">Feature 1</h5>
               <p class="card-text">Details about feature 1. Explain what it does and why it’s great.</p>
@@ -137,7 +166,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://i.pinimg.com/originals/ac/43/52/ac4352f877cd4265d69538bd7532b7b3.jpg" class="card-img-top" alt="...">
+            <img src="https://i.pinimg.com/originals/ac/43/52/ac4352f877cd4265d69538bd7532b7b3.jpg" class="card-img-top" alt="Feature 2">
             <div class="card-body">
               <h5 class="card-title">Feature 2</h5>
               <p class="card-text">Details about feature 2. Explain what it does and why it’s great.</p>
@@ -147,7 +176,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://m.media-amazon.com/images/I/81lNsz7Ox1S._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="...">
+            <img src="https://m.media-amazon.com/images/I/81lNsz7Ox1S._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Feature 3">
             <div class="card-body">
               <h5 class="card-title">Feature 3</h5>
               <p class="card-text">Details about feature 3. Explain what it does and why it’s great.</p>
@@ -172,4 +201,3 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
