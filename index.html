@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Best platform to watch anime.">
-  <title>Enhanced Landing Page</title>
+  <meta name="description" content="CAFFE SHOP.">
+  <title>CAFFE</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -13,7 +13,7 @@
       color: white;
     }
     .header {
-      background-image: url(https://images.wallpapersden.com/image/download/the-landscape-hd-anime-illustrator_bmZpZmaUmZqaraWkpJRmbmpnrWZmZ2U.jpg);
+      background-image: url(https://wallpapers.com/images/hd/cafe-background-rll3lds8bkk01nim.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       color: white;
@@ -24,12 +24,20 @@
       margin: 0;
     }
     .header .welcome-box {
-      border: 2px solid white;
+      border: 10px solid rgb(158, 158, 158);
       padding: 20px;
       margin-bottom: 20px;
       display: inline-block;
       background-color: rgba(0, 0, 0, 0.7);
     }
+    .header .welcome-box2 {
+      border: 10px solid rgb(157, 157, 157);
+      padding: 15px;
+      margin-bottom: 10px;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
     .welcome-text {
     font-size: 2rem; 
   }
@@ -50,13 +58,13 @@
         padding: 50px 0;
       }
       .welcome-text {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
       .anihex-text {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       p.bestplat {
-        font-size: 1rem;
+        font-size: .5rem;
       }
     }
     .carousel-item {
@@ -69,13 +77,118 @@
     width: 100%;
     object-fit: contain; 
   }
+
+  .card {
+  margin-bottom: 30px; /* Adds space below each card */
+}
+@media (min-width: 576px) {
+  .card {
+    margin-bottom: 30px; /* Adds space below each card */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px; /* Less space on smaller screens */
+  }
+}
+
+  .logo {
+  position:absolute; /* Position the logo absolutely */
+  top: 55px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+  border-radius: 50%; /* Makes the logo circular */
+  overflow: hidden; /* Ensures image fits within the circle */
+  width: 130px; /* Adjust size as needed */
+  height: 130px; /* Same as width to maintain circular shape */
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+}
+
+.logo img {
+  width: 100%; /* Make image fill the container */
+  height: 100%; /* Make image fill the container */
+  object-fit:cover; /* Ensure the image covers the circle */
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 100px; /* Adjust size for phones */
+    height: 100px; /* Same as width to maintain circular shape */
+    top: 15px; /* Reduce distance from the top */
+    left: 5px; /* Reduce distance from the left */
+  }
+}
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact-form .form-control {
+  margin-bottom: 15px;
+}
+/* CSS */
+.footer-bottom {
+  background: #222;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+.card-text {
+  color: #222;
+  font-size: larger;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    border: 10px solid #c0c0c0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.btn-primary{
+  width: 150px;
+  height: 50px;
+  border: 3px solid #315cfd;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.btn-primary :hover {
+  background: #315cfd;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+
+
   </style>
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Brand</a>
+    <a class="navbar-brand" href="#">YOUR ONE AND ONLY COFFEE HOUSE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -106,20 +219,27 @@
   </nav>
 
   <!-- Header -->
-  <header class="header">
+ <!-- Header -->
+<header class="header">
     <div class="container">
-      <div class="welcome-box">
-        <h1 class="welcome-text">ＷＥＬＣＯＭＥ ＴＯ</h1>
-        <h2 class="anihex-text">🅰🅽🅸🅷🅴🆇</h2>
+      <div class="text-center">
+       <div class="logo">
+        <img src="logocaffe.jpeg" alt="Company Logo" >
+    </div>
+        <div class="welcome-box">
+          <h1 class="welcome-text">ＷＥＬＣＯＭＥ ＴＯ</h1>
+          <h2 class="anihex-text">ᑕᖇEᗩᗰY ᗩᑌᖇᗩ ᑕᗩᖴᖴE</h2>
+        </div>
+        <br>
+        <div class="welcome-box2">
+          <p class="bestplat">ẄḦЁṚЁ ḞḶÄṾÖṚ ṀЁЁṪṠ ṠЁṚЁṄЇṪŸ </p>
+        </div>
+        <br>
+        <a href="#" class="btn btn-light btn-lg">Order Now</a>
       </div>
-      <br>
-      <div class="welcome-box">
-        <p class="bestplat">ＢＥＳＴ  ＰＬＡＴＦＯＲＭ  ＴＯ  ＷＡＴＣＨ  ＡＮＩＭＥ</p>
-      </div>
-      <br>
-      <a href="#" class="btn btn-light btn-lg">Learn More</a>
     </div>
   </header>
+  
   
   <br>
 
@@ -132,19 +252,19 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://wallpapers.com/images/hd/naruto-shippuden-ninjas-of-konoha-poster-grwidr1g2tnfyv1v.jpg" alt="First slide">
+        <img class="d-block w-100" src="https://neurosciencenews.com/files/2023/07/espresso-alzheimers-neuroscience.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
           <h5>NARUTO SHIPPUDEN</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://c4.wallpaperflare.com/wallpaper/666/480/28/anime-1920x1200-one-piece-hd-wallpaper-preview.jpg" alt="Second slide">
+        <img class="d-block w-100" src="https://images.herzindagi.info/image/2023/Jul/smoothie-recipes-for-weight-loss.jpg" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
           <h5>ONE PIECE</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://mrwallpaper.com/images/hd/bleach-4k-ultra-hd-soul-card-battle-poster-kzmktls7sxzz28wc.jpg" alt="Third slide">
+        <img class="d-block w-100" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/ready-mix/f/1/7/1-food-classy-egg-less-chocolate-cake-premix-1kg-1-dessert-mix-original-imagqfs33psvrjj4.jpeg?q=90&crop=false" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           <h5>BLEACH</h5>
         </div>
@@ -163,47 +283,231 @@
   <!-- Content Section 1 -->
   <section class="content">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://wallpapercave.com/wp/wp7836444.jpg" class="card-img-top" alt="Feature 1">
-            <div class="card-body">
-              <h5 class="card-title">Feature 1</h5>
-              <p class="card-text">Details about feature 1. Explain what it does and why it’s great.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+        <div class="row">
+            <!-- Image 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/view-3d-coffee-cup-with-roasted-beans_23-2151083732.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 1</h5>
+                        <p class="card-text"> This feature highlights the rich aroma and flavor of freshly brewed coffee, perfect for coffee enthusiasts.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
             </div>
+
+            <!-- Image 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/glass-cup-delicious-hot-chocolate-with-whipped-cream_157927-943.jpg?ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 2</h5>
+                        <p class="card-text"> Indulge in the creamy richness of hot chocolate topped with whipped cream for a perfect treat.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/chocolate-smoothie-with-jar-cafe_136375-868.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 3</h5>
+                        <p class="card-text"> Enjoy a refreshing chocolate smoothie, a perfect blend of taste and nutrition for a quick energy boost.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/irish-coffee-with-cinnamon-wooden-surface_159137-3358.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 4</h5>
+                        <p class="card-text">Savor the delightful combination of coffee and cinnamon in our special Irish coffee.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/iced-coffee-tall-glass-with-cream-topped-with-iced-coffee-decorated-with-coffee-beans_1150-22916.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 5</h5>
+                        <p class="card-text"> Cool down with our iced coffee, a perfect blend of coffee and cream served cold.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/close-up-vintage-coffee-maker-set_23-2148337131.jpg?uid=R155330199&ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 6</h5>
+                        <p class="card-text"> Experience the nostalgia with our vintage coffee maker set, ideal for a classic coffee brewing experience.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 7 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/top-view-salad-with-feta-cheese-cutting-board_23-2148700461.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 7</h5>
+                        <p class="card-text"> Relish our fresh and healthy salad with feta cheese, a perfect blend of flavors and nutrition.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 8 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/pasta-arrabbiata-with-tomato-sauce-plate-italian-food_128711-10348.jpg?ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 8</h5>
+                        <p class="card-text"> Delight in our Pasta Arrabbiata, a classic Italian dish with a spicy tomato sauce.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/club-sandwich-served-with-french-fries_141793-574.jpg?size=626&ext=jpg&ga=GA1.1.589384953.1719979643&semt=sph" class="card-img-top" alt="Feature 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 9</h5>
+                        <p class="card-text"> Enjoy our classic club sandwich served with crispy French fries, perfect for a quick and satisfying meal.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/delicious-fresh-croissants-street-cafe_153977-1699.jpg?ga=GA1.1.589384953.1719979643&semt=ais_user" class="card-img-top" alt="Feature 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 10</h5>
+                        <p class="card-text"> Treat yourself to our freshly baked croissants, a perfect addition to your morning coffee.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 11 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1663840277963-17291c6a0086?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGZvb2R8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Feature 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 11</h5>
+                        <p class="card-text"> Discover our gourmet food selection, featuring delicacies from around the world.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 12 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/7e/13/8b/7e138b10f837516988bd1ab17f2de676.jpg" class="card-img-top" alt="Feature 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature 12</h5>
+                        <p class="card-text"> Enjoy the perfect balance of flavors with our carefully crafted dishes, made from the finest ingredients.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Us Section -->
+<section class="contact-form">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://i.pinimg.com/originals/ac/43/52/ac4352f877cd4265d69538bd7532b7b3.jpg" class="card-img-top" alt="Feature 2">
-            <div class="card-body">
-              <h5 class="card-title">Feature 2</h5>
-              <p class="card-text">Details about feature 2. Explain what it does and why it’s great.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
-          </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://m.media-amazon.com/images/I/81lNsz7Ox1S._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Feature 3">
-            <div class="card-body">
-              <h5 class="card-title">Feature 3</h5>
-              <p class="card-text">Details about feature 3. Explain what it does and why it’s great.</p>
-              <a href="#" class="btn btn-primary">Learn More</a>
-            </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+ 
+<!-- Menu Section -->
+<section class="menu py-5">
+    <div class="container text-center">
+      <h2>Our Menu</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card border-0 shadow">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGLhIsvSjc&#x2F;YjDQZ5WpFh-jjrbyr-bLDQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGLhIsvSjc&#x2F;YjDQZ5WpFh-jjrbyr-bLDQ&#x2F;view?utm_content=DAGLhIsvSjc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"></a>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
+  
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Your Company. All rights reserved.</p>
+<!-- HTML -->
+<footer class="bg-dark text-white pt-4">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">ᑕᖇEᗩᗰY ᗩᑌᖇᗩ</h5><br>
+          <p> We blends rich, expertly crafted coffees with a touch of elegance. Enjoy a serene ambiance and delightful pastries in our cozy café, perfect for relaxation or meetings. Savor every sip in style at Creamy Aura Caffé.</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-0">
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white"><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href="#" class="text-white"><i class="fa fa-github"></i> GitHub</a></li>
+            <li><a href="#" class="text-white"><i class="fa fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom text-center py-3">
+      <p>Copyright ©2024 CREAMY AURA CAFFE.</p>
     </div>
   </footer>
+  
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
